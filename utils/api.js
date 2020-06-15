@@ -17,3 +17,28 @@ const api = {
 };
 
 module.exports = api;
+
+//====================stackoverflow answer below//
+//https://stackoverflow.com/questions/44078900/github-api-fetching-user-email
+import axios from 'axios'
+
+const REQUEST = 'https://api.github.com/users/'
+
+var config = {
+  headers: {'Authorization': 'token 847762643...'}
+}
+
+module.exports = {
+  getData: (accountName) => {
+    const encodedAccountName = encodeURIComponent(accountName)
+    const requestUrl = `${REQUEST}${encodedAccountName}`
+
+    return axios.get(requestUrl, config).then(res => {
+      return res
+    })
+  }
+}
+//=============================================================
+
+https://developer.github.com/v3/
+access token request from command line

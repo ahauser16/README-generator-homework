@@ -1,10 +1,10 @@
 
-  # test
+  # Unit 9 README Generator
   [![GitHub license](https://img.shields.io/badge/license-MIT-b)]
   
   ## Description
   
-  test
+  Having a structured README is very helpful to stay organized and focused on the task at hand.
   
   ## Table of Contents
 
@@ -25,12 +25,12 @@
   To install necessary dependencies, run the following command:
 
   ```
-  test
+  npm i
   ```
 
   ## Usage
 
-  test
+  the basics of coding
 
   ## License
           
@@ -38,14 +38,14 @@ This Project is licensed under the MIT license.
 
   ## Contributing
 
-  test
+  no need to it's a solo project.
 
   ## Tests
 
   To run tests, run the following command:
 
   ```
-  test
+  npm i
   ```
 
   ## Questions
